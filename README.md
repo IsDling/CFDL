@@ -13,7 +13,8 @@ conda env create -f CFDL.yml
 
 **Run code:**
 
-python main.py --dataset_name='men' (change "dataset_name" to train different dataset)
+python main.py --dataset_name='brats' 
+(change "dataset_name" to train different dataset, 'men' for MEN dataset,  'mrnet-meniscus' for MRNet dataset and 'brats' for BraTS 2021 dataset)
 
 **If you have any questions, please contact liu_dling@tju.edu.cn!**
 
